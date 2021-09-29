@@ -22,7 +22,7 @@ function App() {
           <Route path="/friends">
             <Friends></Friends>
           </Route>
-          <Route path="/friend/:fdid">
+          <Route path="/friend/:friendId">
             <FriendDetail></FriendDetail>
           </Route>
           <Route path="/about">
