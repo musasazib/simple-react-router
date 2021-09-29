@@ -4,11 +4,13 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import Friends from './components/Home/Friends/Friends';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home></Home>
